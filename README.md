@@ -77,7 +77,7 @@ You need to SSH into your server as root and run the following command:
 
     mkdir /app ; 
     cd /app/ || exit ; 
-    git clone https://github.com/oip90/OpenCEX.git ./deploy ;
+    git clone https://github.com/oip90/OpenCEXF.git ./deploy ;
     cd deploy ; 
     chmod +x opencex.sh ;
     ./opencex.sh 2>&1 | tee /tmp/install.txt
