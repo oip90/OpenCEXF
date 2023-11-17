@@ -1009,6 +1009,7 @@ services:
      - /app/opencex/backend:/app
      ports:
      - 8082:80
+     - 80:80
      - 4432:443
      networks:
      - caddy
