@@ -26,11 +26,11 @@ git clone https://github.com/oip90/OpenCEXF-JS-admin.git ./admin
 echo "`cat <<YOLLOPUKKI
 
 
-000000     00   00     000000 00           00
-  00      0000 0000      00    00    0    00
-  00     00  000  00     00     00  000  00
-  00    00    0    00    00      0000 0000
-000000 00           00   00       00   00
+000000     /00   00\    \00           00/ 000000
+  00      /0000 0000\    \00    0    00/    00
+  00     /00  000  00\    \00  000  00/     00   
+  00    /00    0    00\    \0000 0000/      00
+000000 /00           00\    \00   00/       00
 Hello! This is OpenCEX Setup. Please enter parameters for your exchange.
 If you make a mistake when entering a parameter, don't worry, 
 at the end of each parameter block you will have the opportunity 
