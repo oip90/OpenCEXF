@@ -33,7 +33,7 @@ echo "`cat <<YOLLOPUKKI
 |000000|/00          \00/ \00/      |00|  
 
 
-Hello! This is OpenCEX Setup. Please enter parameters for your exchange.
+Hello! This is IMWT Setup. Please enter parameters for your exchange.
 If you make a mistake when entering a parameter, don't worry, 
 at the end of each parameter block you will have the opportunity 
 to re-enter the parameters.
@@ -96,10 +96,10 @@ export SUPPORT_EMAIL
 #TWITTER - twitter page URL
 #LINKEDIN - linkedin page URL
 
-TELEGRAM=opencex
-FACEBOOK=polygant
-TWITTER=polygant
-LINKEDIN=polygant
+TELEGRAM=imwt
+FACEBOOK=imwt
+TWITTER=imwt
+LINKEDIN=imwt
 LOGO=
 
 export TELEGRAM
