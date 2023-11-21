@@ -1099,7 +1099,6 @@ networks:
   mynetwork:
     external: true
 EOF
-echo "Стартуем докер"
 docker compose up -d
 
 docker stop opencex-cel opencex-wss
