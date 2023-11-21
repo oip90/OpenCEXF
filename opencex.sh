@@ -1004,7 +1004,6 @@ services:
      - /app/opencex/backend:/app
      ports:
      - 8082:80
-     - 80:80
      - 4432:443
      networks:
      - caddy
@@ -1030,8 +1029,8 @@ services:
       image: lucaslorentz/caddy-docker-proxy:latest
       restart: always
       ports:
-        - 808:80
-        - 4431:443
+        - 80:80
+        - 443:443
       environment:
         - CADDY_INGRESS_NETWORKS=caddy
       networks:
